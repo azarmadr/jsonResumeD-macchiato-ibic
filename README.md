@@ -1,14 +1,13 @@
-# Node.js API example
+# JSON Resume with resumed and a clone of macchiato ibic theme
 
-This example shows how to use Resumed with its Node.js API.
 
 ## How to use
 
-Clone this example with [degit](https://github.com/Rich-Harris/degit), install dependencies, create and render resume:
+Clone this repo, install dependencies, create and render resume:
 
 ```sh
-npx degit rbardini/resumed/examples/with-node-api
+git clone https://github.com/azarmadr/jsonResumeD-macchiato-ibic.git
 npm install
-npm run init
+npm run init # create a resume
 npm start
 ```
