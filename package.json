@@ -1,12 +1,12 @@
 {
-  "name": "jsonResumeD-macchiato-ibic",
+  "name": "json-resumed-macchiato-ibic",
   "version": "1.0.0",
   "description": "Simple theme for JSON Resume. Based on macchiato, which based on caffeine-theme.",
   "author": "Shaik Azhar Madar",
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run pretty && npm run lint",
+      "pre-commit": "npm run pretty",
       "pre-push": "npm run prepublishOnly"
     }
   },
@@ -29,7 +29,6 @@
     "handlebars-wax": "^6.1.0",
     "swag": "^0.6.1",
     "temporal-polyfill": "^0.0.8",
-    "puppeteer": "^18.0.0",
     "resumed": "^1.0.0"
   },
   "devDependencies": {
